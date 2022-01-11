@@ -1,5 +1,6 @@
 import model.Car;
 import model.Vehicle;
+import model.Truck;
 
 public class VehicleNoises {
 	
@@ -12,6 +13,10 @@ public class VehicleNoises {
 		
 		Vehicle Toyota = new Vehicle();
 		System.out.println(Toyota.makeNoise());
+
+		Truck toyota = new Truck("Toyota", "Tundra", "Blue", 2003, 217289.7);
+		System.out.println(toyota.makeNoise()); //William Thomas 01/11/2022
+
 	}
 
 }
