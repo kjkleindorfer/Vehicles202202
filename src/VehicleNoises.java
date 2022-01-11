@@ -1,4 +1,5 @@
 import model.Car;
+import model.Vehicle;
 
 public class VehicleNoises {
 	
@@ -8,6 +9,9 @@ public class VehicleNoises {
 	public static void main(String[] args) {
 		Car honda = new Car();
 		System.out.println(honda.makeNoise());
+		
+		Vehicle Toyota = new Vehicle();
+		System.out.println(Toyota.makeNoise());
 	}
 
 }
