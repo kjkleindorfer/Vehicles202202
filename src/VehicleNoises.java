@@ -2,6 +2,7 @@ import model.Car;
 import model.Plane;
 import model.Vehicle;
 import model.Truck;
+import model.Bicycle;
 
 public class VehicleNoises {
 	
@@ -20,6 +21,9 @@ public class VehicleNoises {
 		
 		Plane Boeing = new Plane("Boeing 737", "White", 2015);
 		System.out.println(Boeing.makeNoise()); 
+		
+		Bicycle oldBike = new Bicycle("Red", false, 3);
+		System.out.println(oldBike.makeNoise());
 	}
 
 }
