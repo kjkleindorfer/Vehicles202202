@@ -1,5 +1,6 @@
 import model.Car;
 import model.Plane;
+import model.Spaceship;
 import model.Vehicle;
 import model.Truck;
 import model.Bicycle;
@@ -22,8 +23,12 @@ public class VehicleNoises {
 		Plane Boeing = new Plane("Boeing 737", "White", 2015);
 		System.out.println(Boeing.makeNoise()); 
 		
+		Spaceship atlantis = new Spaceship("Space Shuttle Atlantis", "United States", 5);
+		System.out.println(atlantis.makeNoise());
+
 		Bicycle oldBike = new Bicycle("Red", false, 3);
 		System.out.println(oldBike.makeNoise());
+    
 	}
 
 }
