@@ -1,5 +1,6 @@
 import model.Car;
 import model.Plane;
+import model.SemiTruck;
 import model.Spaceship;
 import model.Vehicle;
 import model.Truck;
@@ -28,6 +29,9 @@ public class VehicleNoises {
 
 		Bicycle oldBike = new Bicycle("Red", false, 3);
 		System.out.println(oldBike.makeNoise());
+		
+		SemiTruck semi = new SemiTruck("Mack Trucks", "Granite", true);
+		System.out.println(semi.makeNoise());
     
 	}
 
