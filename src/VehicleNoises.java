@@ -1,4 +1,5 @@
 import model.Car;
+import model.Motorcycle;
 import model.Plane;
 import model.SemiTruck;
 import model.Spaceship;
@@ -32,6 +33,9 @@ public class VehicleNoises {
 		
 		SemiTruck semi = new SemiTruck("Mack Trucks", "Granite", true);
 		System.out.println(semi.makeNoise());
+		
+		Motorcycle suzuki = new Motorcycle("Boulevard", "Silver", 2021);
+		System.out.println(suzuki.makeNoise());
     
 	}
 
