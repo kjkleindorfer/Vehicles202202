@@ -5,6 +5,7 @@ import model.Spaceship;
 import model.Vehicle;
 import model.Truck;
 import model.Bicycle;
+import model.Tank;
 import model.*;
 
 public class VehicleNoises {
@@ -36,6 +37,9 @@ public class VehicleNoises {
 		
 		Motorcycle myBike = new Motorcycle("Honda", "CBR600rr", "2003");
 		System.out.println(myBike.makeNoise());
+		
+		Tank myTank = new Tank("M1", "T-150", 5);
+		System.out.println(myTank.makeNoise());
 	}
 
 }
