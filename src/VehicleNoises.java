@@ -36,6 +36,9 @@ public class VehicleNoises {
 		
 		Motorcycle myBike = new Motorcycle("Honda", "CBR600rr", "2003");
 		System.out.println(myBike.makeNoise());
+		
+		Van myVan = new Van(4, true, "carpet");
+		System.out.println(myVan.makeNoise());
 	}
 
 }
