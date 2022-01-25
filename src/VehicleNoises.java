@@ -41,6 +41,9 @@ public class VehicleNoises {
 		Train bulletTrain = new Train("Bullet", "Kodama", 24);
 		System.out.println(bulletTrain.makeNoise());
 		
+		Van myVan = new Van(4, true, "carpet");
+		System.out.println(myVan.makeNoise());
+
 	}
 
 }
