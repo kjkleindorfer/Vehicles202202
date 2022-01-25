@@ -43,6 +43,9 @@ public class VehicleNoises {
 		
 		Van myVan = new Van(4, true, "carpet");
 		System.out.println(myVan.makeNoise());
+		
+		Unicycle myUnicycle = new Unicycle("Red",false,25);
+		System.out.println(myUnicycle.makeNoise());
 
 	}
 
