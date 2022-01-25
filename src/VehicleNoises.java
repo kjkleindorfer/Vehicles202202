@@ -44,6 +44,9 @@ public class VehicleNoises {
 		Van myVan = new Van(4, true, "carpet");
 		System.out.println(myVan.makeNoise());
 		
+		Jeep blueJeep = new Jeep ("Jeep Compass", "Latitude", 5);
+		System.out.println(blueJeep.makeNoise());
+
 		Unicycle myUnicycle = new Unicycle("Red",false,25);
 		System.out.println(myUnicycle.makeNoise());
 
