@@ -7,6 +7,7 @@ import model.Truck;
 import model.Bicycle;
 import model.Tank;
 import model.*;
+import model.Train;
 
 public class VehicleNoises {
 	
@@ -40,6 +41,19 @@ public class VehicleNoises {
 		
 		Tank myTank = new Tank("M1", "T-150", 5);
 		System.out.println(myTank.makeNoise());
+
+		Train bulletTrain = new Train("Bullet", "Kodama", 24);
+		System.out.println(bulletTrain.makeNoise());
+		
+		Van myVan = new Van(4, true, "carpet");
+		System.out.println(myVan.makeNoise());
+		
+		Jeep blueJeep = new Jeep ("Jeep Compass", "Latitude", 5);
+		System.out.println(blueJeep.makeNoise());
+
+		Unicycle myUnicycle = new Unicycle("Red",false,25);
+		System.out.println(myUnicycle.makeNoise());
+
 	}
 
 }
