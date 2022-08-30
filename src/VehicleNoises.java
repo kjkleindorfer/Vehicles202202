@@ -53,6 +53,9 @@ public class VehicleNoises {
 
 		Unicycle myUnicycle = new Unicycle("Red",false,25);
 		System.out.println(myUnicycle.makeNoise());
+		
+		Boat titanic = new Boat("Titanic", 1912, "Dark Grey");
+		System.out.println(titanic.makeNoise());
 
 	}
 
