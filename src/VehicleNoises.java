@@ -8,6 +8,7 @@ import model.Bicycle;
 import model.Tank;
 import model.*;
 import model.Train;
+import model.SUV;
 
 public class VehicleNoises {
 	
@@ -54,6 +55,8 @@ public class VehicleNoises {
 		Unicycle myUnicycle = new Unicycle("Red",false,25);
 		System.out.println(myUnicycle.makeNoise());
 
+		SUV mySUV = new SUV("Chevy", "V4", "V4", 2010 , 160000);
+		System.out.println(mySUV.makeNoise());
 	}
 
 }
