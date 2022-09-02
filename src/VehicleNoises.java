@@ -53,6 +53,9 @@ public class VehicleNoises {
 
 		Unicycle myUnicycle = new Unicycle("Red",false,25);
 		System.out.println(myUnicycle.makeNoise());
+		
+		Volkswagen myBeetle = new Volkswagen("Blue", 2011, false);
+		System.out.println(myBeetle.makeNoise());
 
 	}
 
