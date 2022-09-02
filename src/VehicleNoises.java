@@ -53,6 +53,9 @@ public class VehicleNoises {
 
 		Unicycle myUnicycle = new Unicycle("Red",false,25);
 		System.out.println(myUnicycle.makeNoise());
+		
+		Jet myJet = new Jet("F-22 Raptor", "1998", "Tom Smith");
+		System.out.println(myJet.makeNoise());
 
 	}
 
