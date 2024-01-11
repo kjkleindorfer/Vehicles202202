@@ -8,6 +8,8 @@ import model.Bicycle;
 import model.Tank;
 import model.*;
 import model.Train;
+import model.SportsCar;
+
 
 public class VehicleNoises {
 	
@@ -53,6 +55,9 @@ public class VehicleNoises {
 
 		Unicycle myUnicycle = new Unicycle("Red",false,25);
 		System.out.println(myUnicycle.makeNoise());
+
+		SportsCar mySportsCar = new SportsCar("Ferrari", "458 Italia", 600);
+		System.out.println(mySportsCar.makeNoise());
 
 	}
 
