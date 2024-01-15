@@ -53,7 +53,9 @@ public class VehicleNoises {
 
 		Unicycle myUnicycle = new Unicycle("Red",false,25);
 		System.out.println(myUnicycle.makeNoise());
-
+		
+		RC_Car rcCar = new RC_Car();
+		System.out.println(rcCar.makeNoise());
 	}
 
 }
